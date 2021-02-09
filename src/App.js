@@ -1,5 +1,8 @@
 import React from "react";
+
 import Header from "./Components/Header";
+
+import Main from "./Components/Main";
 
 import './global.css';
 
@@ -8,13 +11,15 @@ function App() {
     <div>
       <Header
       dog="Cachorros"
-      cat="gatos"
-      bird="aves"
-      fish="peixes"
-      repteis="répteis"
+      cat="Gatos"
+      bird="Aves"
+      fish="Peixes"
+      repteis="Répteis"
       others="Outros"
-      rats="roedores"
+      rats="Roedores"
       />
+      
+      <Main/>
 
     </div>
   );
