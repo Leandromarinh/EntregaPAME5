@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     padding-left: 0px;
+    margin-top: 50px;
 }
 
 .title-container{
@@ -19,4 +20,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
+}
+
+.acessorio, .antipulgas, .higiene, .meds, .racao, .tapetes{
+    width: 150px;
+    height: 150px;
 }

@@ -6,10 +6,13 @@ import Contador from "../Contador";
 
 import ProductList from "../ProductList";
 
+import Agenda from "../Agenda";
+
 export default function Main(){
     return(
-        <div className="contador-container">
+        <div className="main-container">
             <Contador/>
+            <Agenda/>
             <ProductList/>
         </div>
 

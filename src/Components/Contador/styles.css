@@ -2,20 +2,21 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #ebebeb ;
+    /*background-color: #ebebeb ;*/
     height: 100%;
-    width: 100%;
+    width: 70%;
+    margin-top: 30px;
 }
 
 .container button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 70px;
     height: 30px;
     background: #1a73e8;
     box-shadow: 0px 6.184451px 15.451px rgba(16, 156, 216);
-    font-size: 18.5532px;
+    font-size: 13px;
     color: #fff;
     font-weight: bold;
     text-align: center;
@@ -25,6 +26,23 @@
     border-radius: 8px;
 }
 
-.container h2, .container h1{
+.container h3, .container h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h3{
+    color: #4f4f4f;
+}
+
+.contador-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.contador-container h1{
     font-family: Arial, Helvetica, sans-serif;
 }

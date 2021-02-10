@@ -15,14 +15,20 @@ export default function Contador(){
     }
 
     return(
-        <div className="container">
-            <h2>Para quantos Pets você deseja fazer um agendamento?</h2>
-            <button className="button" onClick={increment}>Adicionar</button>
-            <div className="counter-container">
-                <h1>{counter}</h1>
-            </div>
-            <button className="button" onClick={decrease}>Diminuir</button>
+        <div className="contador-container">
+            <h1> Agendamento de Banho e Tosa</h1>
+            
+            <div className="container">
+                <h3>Para quantos Pets você deseja fazer um agendamento de banho ou tosa?</h3>
+                <button className="button" onClick={increment}>Adicionar</button>
+                
+                <div className="counter-container">
+                    <h1>{counter}</h1>
+                </div>
+                
+                <button className="button" onClick={decrease}>Diminuir</button>
 
+            </div>
         </div>
     )
 }

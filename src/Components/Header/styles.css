@@ -14,7 +14,7 @@
     width: 100%;
     height: 20%;
     justify-content: flex-start;
-    padding-left: 815px;
+    padding-left: 800px;
 }
 
 .header-top p{
@@ -123,3 +123,15 @@
     margin-top: 3px;
     margin-left: 10px;
 }
+
+.header-coment h5:hover{
+    text-decoration: underline;
+}
+
+.menu:hover{
+    color: #ccc;
+}
+
+.header-mid p:hover{
+    text-decoration: underline;
+} 
