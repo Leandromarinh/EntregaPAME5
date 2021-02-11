@@ -1,0 +1,72 @@
+.footer-container{
+    background-color: #262626;
+    width: 10   0%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid #8e8e8e;
+    margin-top: 18px;
+
+}
+
+.footer-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.footer-container p:hover{
+    color: #fff;
+}
+
+.info-container, .info2-container, .info3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container{
+    margin-bottom: 50px;
+}
+
+.info3-container{
+    margin-bottom: 90px;
+}
+
+.hour, .email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title-container{
+    margin-bottom: 15px;
+}
+
+.title-container p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.title-container p:hover{
+    text-decoration: underline;
+}
+
+.hour{
+    margin-right: 80px;
+    margin-left: -40px ;
+}
+
+.email{
+    margin-right: 140px;
+    margin-left: -25px ;
+}

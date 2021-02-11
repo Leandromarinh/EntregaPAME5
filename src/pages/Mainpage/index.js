@@ -6,10 +6,12 @@ import Header from "../../Components/Header"
 
 import Main from "../../Components/Main";
 
+import Footer from "../../Components/Footer";
+
 
 export default function Mainpage(){
     return(
-    <div>
+    <div className="main-page">
         <Header 
             dog="Cachorros"
             cat="Gatos"
@@ -21,6 +23,8 @@ export default function Mainpage(){
         />
     
         <Main />
+
+        <Footer/>
     </div>
     )
     

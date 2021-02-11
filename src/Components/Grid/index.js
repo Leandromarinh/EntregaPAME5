@@ -23,109 +23,109 @@ export default function Grid() {
       <div className="dia">
         <p>SAB (13/02)</p>
       </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
+      <div className="hour-0">
         <p>1 VAGA</p>
       </div>
       <div className="hour-0">
-        <p>0 VAGAS</p>
-      </div>
-      <div className="hour">
         <p>1 VAGA</p>
       </div>
       <div className="hour-0">
-        <p>0 VAGAS</p>
+        <p>0 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>0 VAGA</p>
       </div>
       <div className="hour-ind">
         <p>Horário indisponível</p>
       </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
+      <div className="hour-0">
         <p>1 VAGA</p>
       </div>
       <div className="hour-0">
-        <p>0 VAGAS</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour-al">
-        <p>Horário de almoço</p>
-      </div>
-      <div className="hour-al">
-        <p>Horário de almoço</p>
-      </div>
-      <div className="hour-al">
-        <p>Horário de almoço</p>
-      </div>
-      <div className="hour-al">
-        <p>Horário de almoço</p>
-      </div>
-      <div className="hour-al">
-        <p>Horário de almoço</p>
-      </div>
-      <div className="hour-al">
-        <p>Horário de almoço</p>
-      </div>
-      <div className="hour">
         <p>1 VAGA</p>
       </div>
       <div className="hour-0">
-        <p>0 VAGAS</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
         <p>1 VAGA</p>
       </div>
       <div className="hour-0">
-        <p>0 VAGAS</p>
+        <p>0 VAGA</p>
       </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
-        <p>1 VAGA</p>
-      </div>
-      <div className="hour">
+      <div className="hour-0">
         <p>1 VAGA</p>
       </div>
       <div className="hour-0">
-        <p>0 VAGAS</p>
-      </div>
-      <div className="hour">
         <p>1 VAGA</p>
       </div>
-      <div className="hour">
+      <div className="hour-al">
+        <p> Almoço</p>
+      </div>
+      <div className="hour-al">
+        <p> Almoço</p>
+      </div>
+      <div className="hour-al">
+        <p> Almoço</p>
+      </div>
+      <div className="hour-al">
+        <p> Almoço</p>
+      </div>
+      <div className="hour-al">
+        <p> Almoço</p>
+      </div>
+      <div className="hour-al">
+        <p> Almoço</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>0 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>0 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>0 VAGA</p>
+      </div>
+      <div className="hour-0">
+        <p>1 VAGA</p>
+      </div>
+      <div className="hour-0">
         <p>1 VAGA</p>
       </div>
       <div className="hour-ind">
