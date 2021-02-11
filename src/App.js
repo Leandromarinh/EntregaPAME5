@@ -1,29 +1,17 @@
 import React from "react";
 
-import Header from "./Components/Header";
+import Mainpage from "./pages/Mainpage";
 
-import Main from "./Components/Main";
-import ProductList from "./Components/ProductList";
+import Racao from "./pages/Racao";
 
-import './global.css';
+import Routes from "./routes";
+
+
+import "./global.css";
 
 function App() {
-  return (
-    <div>
-      <Header
-        dog="Cachorros"
-        cat="Gatos"
-        bird="Aves"
-        fish="Peixes"
-        repteis="Répteis"
-        others="Outros"
-        rats="Roedores"
-      />
-      
-      <Main/>
-
-    </div>
-  );
+  return <Routes />
+  
 }
 
 export default App;

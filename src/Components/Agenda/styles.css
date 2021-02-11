@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 .horario{
@@ -13,4 +13,6 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
 }
+
+
 

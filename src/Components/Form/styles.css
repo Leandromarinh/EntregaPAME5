@@ -1,0 +1,56 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-bottom: -30px;
+}
+
+.form-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.service-container, .hour-container, .day-container, .name-container, 
+.pet-container, .race-container, .port-container, .age-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.service-container label, .hour-container label, .day-container label,
+.name-container label, .pet-container label, .race-container label,
+.port-container label,  .age-container label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #555;
+}
+
+.service-container input, .hour-container input, .day-container input,
+.name-container input, .pet-container input, .race-container input,
+.port-container input,  .age-container input{
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    width: 280px;
+    height: 36px;
+    padding: 0 10px;
+}
+
+.button{
+    width: 50px;
+    height: 30px;
+    background: #1a73e8;
+    box-shadow: 0px 6.184451px 15.451px rgba(16, 156, 216);
+    font-size: 9px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 100px;
+}

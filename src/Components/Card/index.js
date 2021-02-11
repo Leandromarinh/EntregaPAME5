@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
-export default function Card({data}){
-    return(
-        <div className="card-container">
-            {data.foto}
-            <h3>
-                {data.type}
-            </h3>
-        </div>
-    )
+import { Link } from "react-router-dom";
+
+export default function Card({ data }) {
+  return (
+  <Link style={{textDecoration: 'none'}} to="/Rações">
+    <div className="card-container">
+      {data.foto}
+      <h3>{data.type}</h3>
+    </div>
+  </Link>
+  );
 }

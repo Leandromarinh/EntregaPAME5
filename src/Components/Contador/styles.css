@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /*background-color: #ebebeb ;*/
     height: 100%;
-    width: 70%;
+    width: 90%;
     margin-top: 30px;
 }
 
@@ -24,6 +23,7 @@
     cursor: pointer;
     border: 0;
     border-radius: 8px;
+    margin-left: 40px;
 }
 
 .container h3, .container h1{
@@ -45,4 +45,12 @@
 
 .contador-container h1{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter-container{
+    margin-left: 15px;
+}
+
+.agendar-container{
+    margin-top: 0px;
 }
