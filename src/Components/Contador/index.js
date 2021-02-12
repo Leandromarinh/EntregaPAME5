@@ -11,6 +11,9 @@ export default function Contador() {
 
   function decrease() {
     setCounter(counter - 1);
+    if (counter == 0) {
+      setCounter(counter)
+    }
   }
 
   return (

@@ -9,14 +9,16 @@ export default function Card({ data }) {
   <Link 
     style={{textDecoration: 'none'}} 
     to={{ 
-      pathname: '/Rações',
-      state: {
+      pathname: "/MaisProdutos",
+      state:{
         data: data
       }
-    }}
+    }
+    }
+
   >
     <div className="card-container">
-      {data.foto}
+      <img className="img" src={data.foto} alt="foto" />
       <h3>{data.type}</h3>
     </div>
   </Link>

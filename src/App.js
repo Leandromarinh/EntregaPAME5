@@ -1,9 +1,5 @@
 import React from "react";
 
-import Mainpage from "./pages/Mainpage";
-
-import Racao from "./pages/Racao";
-
 import Routes from "./routes";
 
 

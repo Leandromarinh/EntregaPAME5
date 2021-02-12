@@ -4,44 +4,56 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
-.title-container{
+.titulo-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.title-container h1{
+.titulo-container h1{
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 0px;
+    margin-right: 550px;
 }
 
-.list-container{
+.lista-container{
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 250px;
 }
 
-.card-container{
+.carde-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 250px;
+    margin-top: 50px;
+    border-bottom: 1px solid #8e8e8e;
 }
 
-.card-container h1{
+.img{
     width: 150px;
     height: 150px;
 }
 
-.card-container p{
+.carde-container p{
     font-size: 14px;
-    color: #333;
+    color: #666;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    margin-top: 20px;
+}
+
+.carde-container p:hover{
+    color: #8e8e8e;
 }
 
 #flecha{
-    margin-left: -40px;  
+    margin-right: 500px;
 }
+
+

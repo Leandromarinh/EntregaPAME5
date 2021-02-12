@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="footer-container">
             <div className="info-container">
                 <div className="title-container">
-                    <p>Institucional</p>
+                    <p id="ins">Institucional</p>
                 </div>
-                <p> A PetShopOn.com.br </p>
+                <p> PetShopOn.com.br </p>
                 <p> Contato </p>
                 <p> Política de devolução, Trocas e Reembolso </p>
                 <p> Depoimentos de clientes </p>
@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
             <div className="info2-container">
                 <div className="title-container">
-                    <p>Atendimento</p>
+                    <p id="ate">Atendimento</p>
                 </div>
                 <div className="hour">
                     <AiOutlineClockCircle size={50} color={"#ffffff"}/>

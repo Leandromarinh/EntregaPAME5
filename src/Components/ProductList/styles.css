@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .title-container{
@@ -27,7 +27,4 @@
     margin-top: 50px;
 }
 
-.acessorio, .antipulgas, .higiene, .meds, .racao, .tapetes{
-    width: 150px;
-    height: 150px;
-}
+
